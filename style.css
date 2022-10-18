@@ -34,7 +34,7 @@ body {
 }
 
 .product-card__product-img {
-  flex: 1;
+  flex: 1.2;
 }
 
 .product-card__product-img img {

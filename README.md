@@ -34,7 +34,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Useful resources
 
-- [The Odin Project's Responsive Images lesson](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-responsive-images) - This resource has a great explanation and it combines the best articles for making images responsive, specifically the [MDN article](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) from which I learned about the <picture> element that I've used to switch the image depending on screen size.
+- [The Odin Project's Responsive Images lesson](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-responsive-images) - This resource has a great explanation and it combines the best articles for making images responsive, specifically the [MDN article](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) from which I learned about the `<picture>` element that I've used to switch the image depending on screen size.
 
 ## Author
 
