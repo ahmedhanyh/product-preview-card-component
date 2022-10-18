@@ -34,10 +34,17 @@ body {
 }
 
 .product-card__product-img {
-  width: 50%;
+  flex: 1;
+}
+
+.product-card__product-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .product-card__info {
+  flex: 1;
   background-color: white;
   padding: 36px;
   display: flex;
@@ -104,4 +111,19 @@ body {
 .attribution {
   position: fixed;
   bottom: 4px;
+}
+
+@media (max-width: 624px) {
+  :root {
+    font-size: 12px;
+  }
+
+  .product-card {
+    flex-direction: column;
+  }
+
+  .product-card__info {
+    padding: 24px;
+    gap: 12px;
+  }
 }

@@ -28,11 +28,16 @@
   </head>
   <body>
     <main class="product-card">
-      <img
-        src="./images/image-product-desktop.jpg"
-        alt="Gabrielle Essence Eau De Parfum Perfume"
-        class="product-card__product-img"
-      />
+      <picture class="product-card__product-img">
+        <source
+          media="(max-width: 624px)"
+          srcset="./images\image-product-mobile.jpg"
+        />
+        <img
+          src="./images/image-product-desktop.jpg"
+          alt="Gabrielle Essence Eau De Parfum Perfume"
+        />
+      </picture>
       <div class="product-card__info">
         <p class="info__category">PERFUME</p>
         <h1 class="info__title">Gabrielle Essence Eau De Parfum</h1>
@@ -58,9 +63,12 @@
 
     <footer class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa"
+        target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="https://github.com/ahmedhanyh">Ahmed Hany</a>.
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/ahmedhanyh">Ahmed Hany</a>.
     </footer>
   </body>
 </html>
